@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .headingbox{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #head{
+        color: black;
+        text-transform: uppercase;
+        width: 55%;
+        font-size: 150px;
+        font-weight: bolder;
+        font-family: fangsom;
+    }
+
+    .kassen {
+        background-color: red;
+        width: 10%;
+        height: 100px;
+        align-items: flex-end;
+        float:left;
+        margin-top: 35px;
+    }
+    #text{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: fangsom;
+        padding-top: 30% ;
+        padding-left: 10%;
+
+    }
+
+    #mainBox {
+        width: 60%;
+        margin: auto;
+        height: 1000px;
+        background-color: black;
+    }
+
+    #leftBox {
+        width: 60%;
+        height: 1000px;
+        background-color: yellow;
+        float: left;
+
+    }
+
+    .bigBox {
+        width: 100%;
+        height: 32%;
+        background-color: white;
+        margin-bottom: 5%;
+
+    }
+    #first{
+        color:red;
+        font-weight: bolder;
+        font-family: fangsom;
+        text-transform: capitalize;
+        font-size: 50px;
+        padding-left: 2%;
+    }
+    h2{
+        font-weight:bolder;
+        font-family: fangsom;
+        font-size: 45px;
+        padding-left: 5%;
+    }
+    h3{
+        font-weight: bolder;
+        font-family: fangsom;
+        font-size: 90px;
+        margin-left: 5%;
+    }
+    h4{
+        font-weight: bolder;
+        font-family: fangsom;
+        font-size: 60px;
+        margin-left: 5%;
+    }
+    h5{
+        font-weight: bolder;
+        font-family: fangsom;
+        font-size: 50px;
+        margin-left: 5%;
+    }
+
+    #rightBox {
+        width: 40%;
+        height: 1000px;
+        background-color: #cd54c2;
+        float: left;
+        background-color: white;
+    }
+    #ingerT{
+        margin-left: 5%;
+        font-family: fangsom;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+</style>
+<body>
+<div class="headerbox">
+    <div class="headingbox">
+        <span id="head">politkken</span>
+        <div class="kassen">
+            <p id="text">Onsdag</p>
+        </div>
+    </div>
+</div>
+
+    <div  id="mainBox">
+        <div id="leftBox">
+            <div class="bigBox">
+                <img id="putin" src="../static/putin.jpg" width="610" height="530"/>
+                <h2><span id="first">ekspert: </span> Putin overtræder en fundamental regel</h2>
+            </div>
+            <div class="bigBox"></div>
+        </div>
+        <div id="rightBox">
+            <div class="rightbox">
+                <h3>Jeg er ikke psykisk syg</h3>
+                <h4>Jeg er ikke psykisk syg</h4>
+                <h5>Jeg er ikke psykisk syg</h5>
+                <img id="inger" src="../static/Inger.jpg" width="405px" heigh="300px"/>
+                <p id="ingerT">Danmark // Læs mere</p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
